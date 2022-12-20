@@ -15,7 +15,7 @@ spec:
         app: php
     spec:
       containers:
-      - name: kube-php
+      - name: php
         image: dylanops/kube-php:0.0.1
         ports:
         - containerPort: 80
